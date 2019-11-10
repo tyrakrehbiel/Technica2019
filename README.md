@@ -18,8 +18,12 @@ from those who want to collaborate on initiatives, but haven’t been able to ga
 The IOS app is coded using Swift. The layout of the app is split into further subsections, including an Explore page. a My Goals Page and a Community Page.
 For the My Goals page, We plan to include api requests for the user's google calender. We would also have the app
 calculate the user's goal progress (weekly, monthly etc.) and the user would also recieve updates on progress or other intiatives happening nearby. 
-The Explore page would incorporate the Machine Learning technique of Supervised Learning to predict or reccomend other projects in the community based on the user's habits. The algorithm would be Online Learning,as the app constantly recieves new data from its users and uses this data to create a prediction tailored to the user.
+The Explore page would incorporate the Machine Learning technique of Supervised Learning to predict or reccomend other projects in the community based on the user's habits. The algorithm would be Online Learning, as the app constantly recieves new data from its users and uses this data to create a prediction tailored to the user.
 
+Below are the graphics we created that represent each page of the app.
+
+
+![alt text](https://raw.githubusercontent.com/tyrakrehbiel/Technica2019/master/community_page.png)
 
 
 
