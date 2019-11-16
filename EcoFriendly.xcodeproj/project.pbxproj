@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A59FA1223779E2200EC5EBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59FA1123779E2200EC5EBE /* AppDelegate.swift */; };
+		7A59FA1423779E2200EC5EBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59FA1323779E2200EC5EBE /* SceneDelegate.swift */; };
+		7A59FA1623779E2200EC5EBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59FA1523779E2200EC5EBE /* ViewController.swift */; };
+		7A59FA1923779E2200EC5EBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A59FA1723779E2200EC5EBE /* Main.storyboard */; };
+		7A59FA1B23779E2300EC5EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A59FA1A23779E2300EC5EBE /* Assets.xcassets */; };
+		7A59FA1E23779E2300EC5EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A59FA1C23779E2300EC5EBE /* LaunchScreen.storyboard */; };
+		7A59FA2623779E8F00EC5EBE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59FA2523779E8F00EC5EBE /* SignUpViewController.swift */; };
+		7A59FA2823779EA000EC5EBE /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59FA2723779EA000EC5EBE /* LogInViewController.swift */; };
+		7A59FA2A23779EB600EC5EBE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59FA2923779EB600EC5EBE /* HomeViewController.swift */; };
+		7A59FA2E2377CFEA00EC5EBE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A59FA2D2377CFEA00EC5EBE /* GoogleService-Info.plist */; };
+		7A59FA302377E36600EC5EBE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59FA2F2377E36600EC5EBE /* Constants.swift */; };
+		DDCD40F6E469B49CA50CCE17 /* Pods_EcoFriendly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8831E4D3308DC22CEE801E01 /* Pods_EcoFriendly.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FF046994F38E0BEC5E2473F /* Pods-EcoFriendly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoFriendly.debug.xcconfig"; path = "Target Support Files/Pods-EcoFriendly/Pods-EcoFriendly.debug.xcconfig"; sourceTree = "<group>"; };
+		7A59FA0E23779E2200EC5EBE /* EcoFriendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoFriendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A59FA1123779E2200EC5EBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A59FA1323779E2200EC5EBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A59FA1523779E2200EC5EBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A59FA1823779E2200EC5EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A59FA1A23779E2300EC5EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A59FA1D23779E2300EC5EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A59FA1F23779E2300EC5EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A59FA2523779E8F00EC5EBE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7A59FA2723779EA000EC5EBE /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		7A59FA2923779EB600EC5EBE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7A59FA2D2377CFEA00EC5EBE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A59FA2F2377E36600EC5EBE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8831E4D3308DC22CEE801E01 /* Pods_EcoFriendly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoFriendly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F06DD66F9F8109C38A127BC /* Pods-EcoFriendly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoFriendly.release.xcconfig"; path = "Target Support Files/Pods-EcoFriendly/Pods-EcoFriendly.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A59FA0B23779E2200EC5EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCD40F6E469B49CA50CCE17 /* Pods_EcoFriendly.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A38B7A706001DF2E58B6F51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8831E4D3308DC22CEE801E01 /* Pods_EcoFriendly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		307A1C97216EC1E1374ABFE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FF046994F38E0BEC5E2473F /* Pods-EcoFriendly.debug.xcconfig */,
+				9F06DD66F9F8109C38A127BC /* Pods-EcoFriendly.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A59FA0523779E2200EC5EBE = {
+			isa = PBXGroup;
+			children = (
+				7A59FA1023779E2200EC5EBE /* EcoFriendly */,
+				7A59FA0F23779E2200EC5EBE /* Products */,
+				307A1C97216EC1E1374ABFE9 /* Pods */,
+				0A38B7A706001DF2E58B6F51 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A59FA0F23779E2200EC5EBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A59FA0E23779E2200EC5EBE /* EcoFriendly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A59FA1023779E2200EC5EBE /* EcoFriendly */ = {
+			isa = PBXGroup;
+			children = (
+				7A59FA2D2377CFEA00EC5EBE /* GoogleService-Info.plist */,
+				7A59FA2C2377CBDB00EC5EBE /* Helpers */,
+				7A59FA2B23779ECA00EC5EBE /* ViewControllers */,
+				7A59FA1123779E2200EC5EBE /* AppDelegate.swift */,
+				7A59FA1323779E2200EC5EBE /* SceneDelegate.swift */,
+				7A59FA1723779E2200EC5EBE /* Main.storyboard */,
+				7A59FA1A23779E2300EC5EBE /* Assets.xcassets */,
+				7A59FA1C23779E2300EC5EBE /* LaunchScreen.storyboard */,
+				7A59FA1F23779E2300EC5EBE /* Info.plist */,
+			);
+			path = EcoFriendly;
+			sourceTree = "<group>";
+		};
+		7A59FA2B23779ECA00EC5EBE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A59FA1523779E2200EC5EBE /* ViewController.swift */,
+				7A59FA2523779E8F00EC5EBE /* SignUpViewController.swift */,
+				7A59FA2F2377E36600EC5EBE /* Constants.swift */,
+				7A59FA2723779EA000EC5EBE /* LogInViewController.swift */,
+				7A59FA2923779EB600EC5EBE /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7A59FA2C2377CBDB00EC5EBE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A59FA0D23779E2200EC5EBE /* EcoFriendly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A59FA2223779E2300EC5EBE /* Build configuration list for PBXNativeTarget "EcoFriendly" */;
+			buildPhases = (
+				30033747E0B04BA3ACC3E84F /* [CP] Check Pods Manifest.lock */,
+				7A59FA0A23779E2200EC5EBE /* Sources */,
+				7A59FA0B23779E2200EC5EBE /* Frameworks */,
+				7A59FA0C23779E2200EC5EBE /* Resources */,
+				BD290185CC3EE01D8CC77AE4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcoFriendly;
+			productName = EcoFriendly;
+			productReference = 7A59FA0E23779E2200EC5EBE /* EcoFriendly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A59FA0623779E2200EC5EBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = MLSquad;
+				TargetAttributes = {
+					7A59FA0D23779E2200EC5EBE = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 7A59FA0923779E2200EC5EBE /* Build configuration list for PBXProject "EcoFriendly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A59FA0523779E2200EC5EBE;
+			productRefGroup = 7A59FA0F23779E2200EC5EBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A59FA0D23779E2200EC5EBE /* EcoFriendly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A59FA0C23779E2200EC5EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A59FA1E23779E2300EC5EBE /* LaunchScreen.storyboard in Resources */,
+				7A59FA2E2377CFEA00EC5EBE /* GoogleService-Info.plist in Resources */,
+				7A59FA1B23779E2300EC5EBE /* Assets.xcassets in Resources */,
+				7A59FA1923779E2200EC5EBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30033747E0B04BA3ACC3E84F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoFriendly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD290185CC3EE01D8CC77AE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcoFriendly/Pods-EcoFriendly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcoFriendly/Pods-EcoFriendly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EcoFriendly/Pods-EcoFriendly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A59FA0A23779E2200EC5EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A59FA1623779E2200EC5EBE /* ViewController.swift in Sources */,
+				7A59FA1223779E2200EC5EBE /* AppDelegate.swift in Sources */,
+				7A59FA2623779E8F00EC5EBE /* SignUpViewController.swift in Sources */,
+				7A59FA2823779EA000EC5EBE /* LogInViewController.swift in Sources */,
+				7A59FA302377E36600EC5EBE /* Constants.swift in Sources */,
+				7A59FA1423779E2200EC5EBE /* SceneDelegate.swift in Sources */,
+				7A59FA2A23779EB600EC5EBE /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A59FA1723779E2200EC5EBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A59FA1823779E2200EC5EBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A59FA1C23779E2300EC5EBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A59FA1D23779E2300EC5EBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A59FA2023779E2300EC5EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A59FA2123779E2300EC5EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A59FA2323779E2300EC5EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF046994F38E0BEC5E2473F /* Pods-EcoFriendly.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcoFriendly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MLSquad.EcoFriendly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A59FA2423779E2300EC5EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F06DD66F9F8109C38A127BC /* Pods-EcoFriendly.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcoFriendly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MLSquad.EcoFriendly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A59FA0923779E2200EC5EBE /* Build configuration list for PBXProject "EcoFriendly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A59FA2023779E2300EC5EBE /* Debug */,
+				7A59FA2123779E2300EC5EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A59FA2223779E2300EC5EBE /* Build configuration list for PBXNativeTarget "EcoFriendly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A59FA2323779E2300EC5EBE /* Debug */,
+				7A59FA2423779E2300EC5EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A59FA0623779E2200EC5EBE /* Project object */;
+}
