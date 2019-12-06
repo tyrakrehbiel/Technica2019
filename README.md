@@ -1,5 +1,6 @@
 # Technica2019
 MLH Hackathon Project, Fall 2019, Technica @ UMD
+Tyra Krehbiel, Aisha Singh, Riya Baphna
 
 This year's theme for Technica, a hackathon held at University of Maryland for women and non-binary participants, 
 was "Go Beyond." For this reason our team brainstormed various ideas on an iOS application we could create that could
